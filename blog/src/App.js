@@ -11,6 +11,8 @@ function App() {
   let [날짜, 날짜변경] = useState(['2022-12-20', '2021-05-03', '2020-01-01']); 
 
 
+
+  
   let posts2 = {color : 'white', fontSize : '30px' };
   let posts = '강남 고기 맛집'
   let [따봉, 따봉변경] = useState(0);
