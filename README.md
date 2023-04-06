@@ -23,9 +23,12 @@ state 변수로 저장하고 사용할 시 변경된 점이 있다면 자동 렌
 2.Git Bash 첫 사용이라면 아래 코드를 이용하여 본인 계정과 연결하고
  $ git config --global user.name {Name} $ git config --global user.email {Email}
  첫 사용이 아니라면 아래 코드를 이용하여 현재 사용하려는 계정 정보와 동일한지 확인해준다.
-3. $ git config user.name $ git config user.email
-4. $ git init
-5. $ git add . 로컬 저장소에 파일을 올려준다.
+ 
+ 
+3. $ git config user.name 
+4. $ git config user.email
+5. $ git init
+6. $ git add . 로컬 저장소에 파일을 올려준다.
  (add와 . 사이에 공백이 있으니 잘 확인하기)
 
 6. $git commit -m "{commit 로그}"
