@@ -41,4 +41,6 @@ state 변수로 저장하고 사용할 시 변경된 점이 있다면 자동 렌
 
 9. $git push origin master
     commit한 파일들을 원격 저장소에 올린다.
+   9. $git push origin +master
+    강제로 올리는 법.
     
