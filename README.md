@@ -53,7 +53,23 @@ ex)	var newArray = [...글제목];   ([...] 신문법임 그냥 '글제목'카�
 
 ### 사용법
 
-
+<div className="modal">
+	<h2>제목</h2>
+	<p>날짜</p>
+	<p>상세내용</p>
+  </div>
+  해당 태그를 '사용자 지정'함수로 묶어 사용가능 (App() 태그 밖에다 만든다. App()도 하나의 펑션이기 때문이다)
+  
+  ex)
+  function Modal(){
+  return (
+    <div className="modal">
+        <h2>제목</h2>
+        <p>날짜</p>
+        <p>상세내용</p>
+      </div>
+    )
+  }
 
 
 
