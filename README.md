@@ -57,16 +57,17 @@ ex)
 
 ### 사용법
 
-<div className="modal">
+`<div className="modal">
 	<h2>제목</h2>
 	<p>날짜</p>
 	<p>상세내용</p>
-  </div>
+  </div>`
+  
   해당 태그를 '사용자 지정'함수로 묶어 사용가능 (App() 태그 밖에다 만든다. App()도 하나의 펑션이기 때문이다)
   
   ex)
-  `
-  function Modal(){
+  
+  `function Modal(){
   return (
     <div className="modal">
         <h2>제목</h2>
@@ -74,8 +75,9 @@ ex)
         <p>상세내용</p>
       </div>
     )
-  }
-`
+  }`
+  
+  
 ####유의사항
 1. 이름은 대뮨자로 시작
 2. return() 안에 있는건 태그하나로 묶어여함
@@ -97,6 +99,7 @@ ex)
   });`
   
 결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
+
   
 ### git bash 사용법
 1.폴더에서 오른쪽 마우스를 클릭한 후 Git Bash Here을 눌러 실행시킨다.
