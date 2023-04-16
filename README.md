@@ -105,4 +105,5 @@ ex)
 3. git add . 입력
 4. git commit -m "커밋메세지 입력"
 5. git push -u origin +master 입력 끝
+6. 초기 설정 방법 및 git bash설치는 구글 참조
 
