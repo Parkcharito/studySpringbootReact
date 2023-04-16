@@ -95,5 +95,14 @@ ex)
 결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
 
   
+  
+  
+  
+  
 ### git bash 사용법
+1. 올리고 싶은 폴더에 마우스 오른쪽 버튼을 눌러 git Bash here를 클릭
+2. git init 입력
+3. git add . 입력
+4. git commit -m "커밋메세지 입력"
+5. git push -u origin +master 입력 끝
 
