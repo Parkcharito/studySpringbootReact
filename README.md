@@ -98,7 +98,7 @@ ex)
   
   
   
-details>
+<details>
     <summary>
    
       ### git bash 사용법
