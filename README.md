@@ -100,6 +100,7 @@ ex)
   
 details>
     <summary>
+   
       ### git bash 사용법
       1. 올리고 싶은 폴더에 마우스 오른쪽 버튼을 눌러 git Bash here를 클릭
       2. git init 입력
@@ -107,6 +108,7 @@ details>
       4. git commit -m "커밋메세지 입력"
       5. git push -u origin +master 입력 끝
       6. 초기 설정 방법 및 git bash설치는 구글링
+   
     </summary>
 
 </details>  
