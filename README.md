@@ -1,3 +1,16 @@
+<details>
+    <summary> 기본 JPA (자세히)</summary>
+   
+      ## 기본 JPA 
+      ### JPA와 CRUD
+      + 저장 : jpa.persist(member)
+      + 조회 : Member member = jpa.find(memberId)
+      + 수정 : member.setName("변경할 이름")
+      + 삭제 : jpa.remove(member)
+      
+
+</details>  
+
 # studySpringboot
 
 JPA공부를 하고 나서 인프런 강의듣기 인프런 강의는 JPA를 기본적으로 쓰고 활용하는 방법에 대한
