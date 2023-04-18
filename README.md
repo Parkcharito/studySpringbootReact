@@ -80,13 +80,24 @@
     2. 카피본에 수정사항 반영하고
     3. 변경함수()에 집어넣기
         
-    <details>
-    <summary> studySpringboot (자세히)</summary>
-        
+    
+    <h1>ddd</h1>
     Component 사용법과 유의사항
     사용법
         
-    </details>
+   해당 태그를 '사용자 지정'함수로 묶어 사용가능 (App() 태그 밖에다 만든다. App()도 하나의 펑션이기 때문이다)
+  
+      ex)
+
+      `function Modal(){
+      return (
+        <div className="modal">
+            <h2>제목</h2>
+            <p>날짜</p>
+            <p>상세내용</p>
+          </div>
+        )
+      }`
         
         
 </details>
@@ -94,23 +105,8 @@
 
 
 
-### Component 사용법과 유의사항
 
-### 사용법
-  
-  해당 태그를 '사용자 지정'함수로 묶어 사용가능 (App() 태그 밖에다 만든다. App()도 하나의 펑션이기 때문이다)
-  
-  ex)
-  
-  `function Modal(){
-  return (
-    <div className="modal">
-        <h2>제목</h2>
-        <p>날짜</p>
-        <p>상세내용</p>
-      </div>
-    )
-  }`
+ 
   
   
 ####유의사항
