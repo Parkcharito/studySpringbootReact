@@ -1,3 +1,5 @@
+# 기본 JPA
+
 <details>
     <summary> 기본 JPA (자세히)</summary>
    
@@ -13,8 +15,14 @@
 
 # studySpringboot
 
-JPA공부를 하고 나서 인프런 강의듣기 인프런 강의는 JPA를 기본적으로 쓰고 활용하는 방법에 대한
-강의 이기 때문이다
+<details>
+    <summary> studySpringboot (자세히)</summary>
+    
+    JPA공부를 하고 나서 인프런 강의듣기 인프런 강의는 JPA를 기본적으로 쓰고 활용하는 방법에 대한
+    강의 이기 때문이다
+    
+</details>  
+
 
 ## Lombok 내용정리
 
