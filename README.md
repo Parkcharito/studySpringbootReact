@@ -24,7 +24,7 @@
 </details>  
 
 
-## Lombok 내용정리
+# Lombok 내용정리
 
 <details>
     <summary> studySpringboot (자세히)</summary>
@@ -49,34 +49,49 @@
    
    
    
-# React
+# React 내용정리
 
-### 실시간으로 코딩 한 소스들 확인하는 법
-Terminal에서 NewTerminal클릭 한 후 밑에 입력창에 npm start 입력한다
-
-### state
-state 변수로 저장하고 사용할 시 변경된 점이 있다면 자동 렌더링이 된다 마치 Ajax처럼 스무스하게 홈페이지 이동이 가능하다 
+<details>
+    <summary> studySpringboot (자세히)</summary>
     
-### <Array, Object state데이터 수정 방법>
+    실시간으로 코딩 한 소스들 확인하는 법
+    Terminal에서 NewTerminal클릭 한 후 밑에 입력창에 npm start 입력한다
 
-ex) 
+    state
+    state 변수로 저장하고 사용할 시 변경된 점이 있다면 자동 렌더링이 된다 마치 Ajax처럼 스무스하게 홈페이지 이동이 가능하다 
+    <Array, Object state데이터 수정 방법>
+        
+    ex) 
 
-`let [글제목, 글제목변경] = useState(['남자 코트 추천', '강남 우동 맛집', '다모토리']);`
+    `let [글제목, 글제목변경] = useState(['남자 코트 추천', '강남 우동 맛집', '다모토리']);`
 
-- 일단 변경함수 써야함 ex)글제목변경
-- 변경함수(대체할 데이터)
+    - 일단 변경함수 써야함 ex)글제목변경
+    - 변경함수(대체할 데이터)
 
-state는 직접 건들지말고 deep copy해서 그걸 건드려야함
-ex)	
+    state는 직접 건들지말고 deep copy해서 그걸 건드려야함
+    ex)	
 
-`var newArray = [...글제목];   ([...] 신문법임 그냥 '글제목'카피하면 값공유만 하게됨)
-    newArray[0] = '여자코트 추천';
-    글제목변경( newArray );`
+    `var newArray = [...글제목];   ([...] 신문법임 그냥 '글제목'카피하면 값공유만 하게됨)
+        newArray[0] = '여자코트 추천';
+        글제목변경( newArray );`
 
-순서정리
-1. 일단 기존 state카피본 만들고
-2. 카피본에 수정사항 반영하고
-3. 변경함수()에 집어넣기
+    순서정리
+    1. 일단 기존 state카피본 만들고
+    2. 카피본에 수정사항 반영하고
+    3. 변경함수()에 집어넣기
+        
+    <details>
+    <summary> studySpringboot (자세히)</summary>
+        
+    Component 사용법과 유의사항
+    사용법
+        
+    </details>
+        
+        
+</details>
+
+
 
 
 ### Component 사용법과 유의사항
