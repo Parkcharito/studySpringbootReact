@@ -98,7 +98,31 @@
           </div>
         )
       }`
+      
+      
+        ####유의사항
         
+        1. 이름은 대문자로 시작
+        2. return() 안에 있는건 태그하나로 묶어여함
+        3. 반복출현하는 HTML덩어리들, 자주 변경되는 HTML UI들, 다른페이지 만들 때 이와 같을 때 Component로 만드는게 좋다
+        4. 상위 component에서 만든 state를 쓰려면 props 문법 이용해야함
+        
+        
+        ### React에서 클릭시 등장하는 UI만드는법
+
+        - UI가 보임/안보임 정보를 state로 저장해둠
+        - if문을 이용해 state가 true일 때 UI를 보여줌
+
+
+        ### map()함수 사용법
+
+         `var array = [2,3,4];
+
+          var newArray = array.map(function(a){
+            return a * 2
+          });`
+
+        결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
         
 </details>
 
@@ -109,27 +133,9 @@
  
   
   
-####유의사항
-1. 이름은 대문자로 시작
-2. return() 안에 있는건 태그하나로 묶어여함
-3. 반복출현하는 HTML덩어리들, 자주 변경되는 HTML UI들, 다른페이지 만들 때 이와 같을 때 Component로 만드는게 좋다
-4. 상위 component에서 만든 state를 쓰려면 props 문법 이용해야함
-
-### React에서 클릭시 등장하는 UI만드는법
-
-- UI가 보임/안보임 정보를 state로 저장해둠
-- if문을 이용해 state가 true일 때 UI를 보여줌
 
 
-### map()함수 사용법
 
- `var array = [2,3,4];
-
-  var newArray = array.map(function(a){
-    return a * 2
-  });`
-  
-결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
 
   
   
