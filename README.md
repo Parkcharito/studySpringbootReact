@@ -27,7 +27,7 @@
 # Lombok 내용정리
 
 <details>
-    <summary> studySpringboot (자세히)</summary>
+    <summary> Lombok 내용정리 (자세히)</summary>
 
     1. @ToString : toString 메소드를 자동으로 생성해주는 어노테이션이다 (System.out.println(">>>" + user.toString()); 가능하게 해줌)
     2. @Getter : 해당 클래스의 필드값들의 getter메소드를 자동으로 만들어주는 어노테이션이다. (데이터의 캡슐화 이유로 필수) 
@@ -52,7 +52,7 @@
 # React 내용정리
 
 <details>
-    <summary> studySpringboot (자세히)</summary>
+    <summary> React 내용정리 (자세히)</summary>
     
     실시간으로 코딩 한 소스들 확인하는 법
     Terminal에서 NewTerminal클릭 한 후 밑에 입력창에 npm start 입력한다
