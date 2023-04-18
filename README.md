@@ -23,7 +23,6 @@
     
 </details>  
 
-
 # Lombok 내용정리
 
 <details>
@@ -44,10 +43,6 @@
     8. @Builder : 빌더 기능을 사용 가능하게 하는 어노테이션이다.
        ex) User user3 = User.builder().name("martin").email("martin@nate.com").build();
 </details>
-
-   
-   
-   
    
 # React 내용정리
 
