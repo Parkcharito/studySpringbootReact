@@ -2,11 +2,6 @@
 
 <details>
     <summary> 기본 JPA (자세히)</summary>
-      ◎ 데이터 베이스 방언
-      · 데이터베이스 방언이란? -> MySQL은 LIMIT, ORACLE은 ROWNUM으로 표현하듯 SQL표준이 아닌 특정 데이터베이스만의 고유한 기능
-      · hibernate.dialect 속성에 지정 
-       
-    
    
       ◎ JPA와 CRUD
     
@@ -14,17 +9,34 @@
       · 조회 : Member member = jpa.find(memberId)
       · 수정 : member.setName("변경할 이름")
       · 삭제 : jpa.remove(member)
-      
-      
-      ◎ ![image](https://user-images.githubusercontent.com/100402443/233082004-c71792a6-b0aa-4c85-a036-29072655cd4a.png)
-
-      
-      
-      
-
 </details>  
 
+◎ JPA
 ![image](https://user-images.githubusercontent.com/100402443/233082114-9d896bbe-d761-4a42-8bc2-56d499798169.png)
+
+
+◎ 데이터 베이스 방언
+      · 데이터베이스 방언이란? -> MySQL은 LIMIT, ORACLE은 ROWNUM으로 표현하듯 SQL표준이 아닌 특정 데이터베이스만의 고유한 기능
+      · hibernate.dialect 속성에 지정 
+      
+◎ @Entity
+- 테이블과의 매핑
+
+- @Entity가 붙은 클래스는 JPA가 관리하는 것으로, 엔티티라고 불림
+
+◎ @Table
+- 엔티티와 매핑할 테이블을 지정
+
+- 생략 시 매핑한 엔티티 이므로 테이블 이름으로 사용
+
+◎ @Column
+객체 필드를 테이블 컬럼에 매핑
+
+속성 중 name, nullable이 주로 사용되고 나머지는 잘 사용되지 않음
+
+![image](https://user-images.githubusercontent.com/100402443/233090725-d52c9835-3f16-4a88-ad6c-a57e53ea3ee9.png)
+
+
 
 
 # studySpringboot
