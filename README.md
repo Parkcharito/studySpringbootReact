@@ -2,13 +2,23 @@
 
 <details>
     <summary> 기본 JPA (자세히)</summary>
-   
-      JPA와 CRUD
+      ◎ 데이터 베이스 방언
+      · 데이터베이스 방언이란? -> MySQL은 LIMIT, ORACLE은 ROWNUM으로 표현하듯 SQL표준이 아닌 특정 데이터베이스만의 고유한 기능
+      · hibernate.dialect 속성에 지정 
+       
     
-      ◎ 저장 : jpa.persist(member)
-      ◎ 조회 : Member member = jpa.find(memberId)
-      ◎ 수정 : member.setName("변경할 이름")
-      ◎ 삭제 : jpa.remove(member)
+   
+      ◎ JPA와 CRUD
+    
+      · 저장 : jpa.persist(member)
+      · 조회 : Member member = jpa.find(memberId)
+      · 수정 : member.setName("변경할 이름")
+      · 삭제 : jpa.remove(member)
+      
+      
+      ◎ 
+      
+      
       
 
 </details>  
