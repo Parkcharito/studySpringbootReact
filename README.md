@@ -37,6 +37,39 @@
 ![image](https://user-images.githubusercontent.com/100402443/233090725-d52c9835-3f16-4a88-ad6c-a57e53ea3ee9.png)
 
 
+find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
+![image](https://user-images.githubusercontent.com/100402443/233092100-332fe656-8d1e-486d-b854-a4734e8b67f7.png)
+
+이와같이 사용한다
+
+결과
+![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # studySpringboot
