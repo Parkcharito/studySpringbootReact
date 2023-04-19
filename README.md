@@ -24,7 +24,7 @@
 
 - @Entity가 붙은 클래스는 JPA가 관리하는 것으로, 엔티티라고 불림
 
-◎ @Table
+![image](https://user-images.githubusercontent.com/100402443/233094922-48903040-8f96-4cc9-882b-a4c3244035e3.png) @Table
 - 엔티티와 매핑할 테이블을 지정
 
 - 생략 시 매핑한 엔티티 이므로 테이블 이름으로 사용
@@ -46,7 +46,12 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 ![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
 
 
+◎ JPQL
 
+- 쿼리문을 짤 때 join이나 group by나 등등등 할 때 createQuery을 사용해 만들수 있다
+- JPQL은 엔티티 객체를 대상으로 쿼리
+- SQL은 데이터베이스 대상으로 쿼리
+- 테이블이 아닌 객체를 대상으로 검색하는 객체 지향 쿼리 이기 때문에 데이터베이스 방언도 설정만 바꾼다면 알아서 다 적용된다 (신세계,,,)
 
 
 
