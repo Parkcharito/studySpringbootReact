@@ -85,7 +85,9 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 
 
 
-
+ ◎ 한 트랜잭션 안에서 1차 캐시의 데이터를 먼저 찾고 없으면 DB에 접근한다 
+ 
+ ![image](https://user-images.githubusercontent.com/100402443/233382338-9026d978-2953-4e2a-a525-6aa686457d4e.png)
 
 
 
