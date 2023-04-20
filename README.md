@@ -63,18 +63,19 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 
 ◎ 엔티티의 생명주기
 
--비영속(new/transient)
+- 비영속(new/transient)
 
     영속성 컨텍스트와 전혀 관계가 없는 새로운 상태
--영속(managed)
+    
+- 영속(managed)
 
     영속성 컨텍스트에 관리되는 상태
     
--준영속(detached)
+- 준영속(detached)
 
     영속성 컨텍스트에 저장되었다가 분리된 상태
     
--삭제(removed)
+- 삭제(removed)
 
     삭제된 상태
     
