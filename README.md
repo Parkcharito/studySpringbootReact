@@ -57,7 +57,8 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 - JPA를 이해하는데 가장 중요한 용어
 - "엔티티를 영구 저장하는 환경"이라는 뜻
 - EntityManager.persist(entity);
-
+- 영속성 컨텍스트는 논리적인 개념으로 눈에 보이지 않는다
+- 엔티티 매니저를 통해서 영속성 컨텍스트에 접근
 
 
 
