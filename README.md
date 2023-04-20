@@ -60,6 +60,15 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 - 영속성 컨텍스트는 논리적인 개념으로 눈에 보이지 않는다
 - 엔티티 매니저를 통해서 영속성 컨텍스트에 접근
 
+◎ 영속성 컨텍스트의 이점
+- 1차 캐시
+- 동일성(idenrtity) 보장 
+ex)
+
+![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
+- 트랜잭션을 지원하는 쓰기 지연
+- 변경 감지(Dirty Checking)
+- 지연 로딩(Lazy Loading)
 
 ◎ 엔티티의 생명주기
 
@@ -75,6 +84,7 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 
     영속성 컨텍스트에 저장되었다가 분리된 상태
     
+    
 - 삭제(removed)
 
     삭제된 상태
@@ -83,7 +93,12 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
  
  ![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
 
+◎ 준영속 상태
 
+- 영속 상태의 엔티티가 영속성 컨텍스트에서 분리(detached)
+- 특정 엔티티만 준영속 상태로 전환 em.detach(entity)
+- 영속성 컨텍스트를 완전히 초기화 em.clear()
+- 영속성 컨텍스트를 종료 em.close()
 
  ◎ 한 트랜잭션 안에서 1차 캐시의 데이터를 먼저 찾고 없으면 DB에 접근한다 
  
@@ -99,15 +114,7 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
  - 쓰기 지연 SQL저장소의 쿼리를 데이터베이스에 전송 (등록, 수정, 삭제 쿼리)
 
 
-◎ 영속성 컨텍스트의 이점
-- 1차 캐시
-- 동일성(idenrtity) 보장 
-ex)
 
-![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
-- 트랜잭션을 지원하는 쓰기 지연
-- 변경 감지(Dirty Checking)
-- 지연 로딩(Lazy Loading)
 
   
   
