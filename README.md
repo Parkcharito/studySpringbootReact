@@ -69,7 +69,11 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 -준영속(detached)
     영속성 컨텍스트에 저장되었다가 분리된 상태
 -삭제(removed)
-    삭제된 
+    삭제된 상태
+    
+ ex) 비영속 
+ ![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
+
 
 
 
