@@ -97,6 +97,18 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
  
  - 변경 감지하고 수정된 엔티티 쓰기 지연 SQL 저장소에 등록
  - 쓰기 지연 SQL저장소의 쿼리를 데이터베이스에 전송 (등록, 수정, 삭제 쿼리)
+
+
+◎ 영속성 컨텍스트의 이점
+- 1차 캐시
+- 동일성(idenrtity) 보장 
+ex)
+
+![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
+- 트랜잭션을 지원하는 쓰기 지연
+- 변경 감지(Dirty Checking)
+- 지연 로딩(Lazy Loading)
+
   
   
 
