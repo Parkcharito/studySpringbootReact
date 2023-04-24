@@ -328,7 +328,35 @@ ex)
 3. 선언형 함수 (Expressions)
     
 - 명령형 프로그래밍은 무엇을 어떻게 할 것인가에 주목하고, 선언헌 프로그래밍은 무엇을 할 것인가에 주목한다.  
-  
+
+예제)
+    
+    let numbers = [1, 2, 3];
+
+    function multiply(numbers, multiplier) {
+        for (let i = 0; i < numbers.length; i++) {
+            numbers[i] = numbes[i] * multiplier;
+        }
+    }
+                                           
+위의 예시에서는 for문을 사용해서 배열의 각 요소에 multiplier 곱해주는 명령형 프로그래밍이다.
+
+함수형 프로그래밍에서는 마찬가지로 if,switch,for 등 명령문을 사용하지 않고 함수형 코드로 사용해야한다.                                          
+                                           
+예제)
+    // 선언형 프로그래밍
+    function multiply(number, multiplier) {
+        return number.map((num) => num * multiplier);
+    }
+    
+위의 예시는 for문을 map으로 대치했고, Javascript 에서는 filter,map,take,reduce 등의 함수형 코드를 사용한다.                                        
+                                           
+                                           
+                                           
+                                           
+                                           
+                                           
+                                       
 <details>
     <summary> git bash 사용법 (자세히)</summary>
    
