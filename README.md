@@ -127,6 +127,7 @@ ex)
 
 
 ◎ @Enumerated
+
 ![image](https://user-images.githubusercontent.com/100402443/234046178-8ae043f9-6265-4de6-85e7-2d00818bdd3e.png)
 
  ex)
