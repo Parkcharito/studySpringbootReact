@@ -279,6 +279,7 @@ ex)
 예제)
 
     let num = 1;
+    
     function add(a) {
         return a + num;
     }
