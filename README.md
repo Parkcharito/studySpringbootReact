@@ -134,6 +134,9 @@ ex)
 설정
 
  ![image](https://user-images.githubusercontent.com/100402443/234046783-b9e01020-a226-49d7-832e-e00530154ff5.png)
+ 
+ ![image](https://user-images.githubusercontent.com/100402443/234047471-5f4b6a5b-9d23-4793-ac5b-942c5d4baff4.png)
+
 
 셋팅
  
