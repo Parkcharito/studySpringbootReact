@@ -147,7 +147,8 @@ ex)
  ◎ @Table
 - 테이블을 지정해주는 어노테이션이다 @Table(name = "테이블명")으로 DB에 지정할 테이블명 설정이 가능하다
  
- 
+ ◎ @GeneratedValue
+ 엔티티의 기본키 생성 전략
  
  
  ◎ IDENTITY 전략 -특징
