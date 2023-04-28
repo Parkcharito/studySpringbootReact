@@ -230,6 +230,9 @@ ex)
 ## 연관관계 매핑
 
 - 다대일 : @ManyToOne
+![image](https://user-images.githubusercontent.com/100402443/235137594-c6aafd38-eb00-47fb-ae3c-721f50baafc3.png)
+
+
 - 일대다 : @OneToMany
 - 일대일 : @OneToOne
 - 다대다 : @ManyToMany
