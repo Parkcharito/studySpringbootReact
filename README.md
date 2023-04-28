@@ -233,7 +233,10 @@ ex)
 
 ![image](https://user-images.githubusercontent.com/100402443/235137594-c6aafd38-eb00-47fb-ae3c-721f50baafc3.png)
 
+![image](https://user-images.githubusercontent.com/100402443/235138191-b8f867d9-7b09-45c0-a457-29678e20554e.png)
 
+ 테이블에 영향 X
+ 
 - 일대다 : @OneToMany
 - 일대일 : @OneToOne
 - 다대다 : @ManyToMany
