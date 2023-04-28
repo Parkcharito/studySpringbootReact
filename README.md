@@ -238,7 +238,7 @@ ex)
 
 
  
-- 일대다 : @OneToMany
+- 일대다 : @OneToMany 
 - 일대일 : @OneToOne
 - 다대다 : @ManyToMany
 
