@@ -236,10 +236,15 @@ ex)
 
 ![image](https://user-images.githubusercontent.com/100402443/235138191-b8f867d9-7b09-45c0-a457-29678e20554e.png)
 
+- 일대다 : @OneToMany 
+- 일대일 : @OneToOne
+- 다대다 : @ManyToMany
+
+
 
 ## 상속관계 매핑
 
-- 조인 전략
+- 조인 전략 (웬만하면 표준)
 
 ![image](https://user-images.githubusercontent.com/100402443/235294729-4c3e76ab-84aa-4f14-9370-1c0a01c2445d.png)
 
@@ -255,12 +260,23 @@ ex)
 3. 데이터 저장시 INSERT SQL 2번 호출 (그렇게 큰 단점은 x) 
 
 
-- 일대다 : @OneToMany 
-- 일대일 : @OneToOne
-- 다대다 : @ManyToMany
-
-
 - 단일 테이블 전략
+
+![image](https://user-images.githubusercontent.com/100402443/235294989-5c26a9f3-8990-4dc6-a891-444019e7ee00.png)
+
+
+◎ 장점
+
+1. 테이블 정규화
+2. 외래 키 참조 무결성 제약조건 활용가능
+3. 저장공간 효율화
+
+◎ 단점
+1. 조회시 조인을 많이 사용, 성능 저하
+2. 조회 쿼리가 복잡함
+3. 데이터 저장시 INSERT SQL 2번 호출 (그렇게 큰 단점은 x) 
+
+
 - ????
 
 
