@@ -323,8 +323,9 @@ ex)
 - 사용하는 입장에서는 진짜 객체인지 프록시 객체인지 구분하지 않고 사용하면 됨(이론상)
 
 
+### 프록시 객체의 초기화
 
-
+![image](https://user-images.githubusercontent.com/100402443/235677283-d7499e89-30d3-4d87-a3a5-1d26460edddf.png)
 
 
 
