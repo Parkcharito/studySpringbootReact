@@ -314,6 +314,9 @@ ex)
 - em.find(): 데이터베이스를 통해서 실제 엔티티 객체 조회
 - em.getRegerence() : 데이터베이스 조회를 미루는 가짜(프록시) 엔티티 객체 조회
 
+![image](https://user-images.githubusercontent.com/100402443/235676732-ae216851-9293-4a9d-b883-be88c8e20695.png)
+
+
 
 
 
