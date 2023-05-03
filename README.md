@@ -355,13 +355,42 @@ ex)
 - 가급적 지연 로딩만 사용(특히 실무에서)
 - 즉시 로딩을 적용하면 예상하지 못한 SQL이 발생
 - 즉시 로딩은 JPQL에서 N+1 문제를 일으킨다.
+- @ManyToOne, @OneToOne은 기본이 즉시 로딩 -> LAZY로 설정
+- @OneToMany, @ManyToMany는 기본이 지연 로딩
 
 
 
 
-◎  CASCADE
+◎  CASCADE 
+- cascade는 영속겅 전이: 저장하는것
+- 영속성 전이는 연관관계를 매핑하는 것과 아무 관련이 없음
+- 엔티티를 영속화할 때 연관된 엔티티도 함께 영속화하는 편리함을 제공할 뿐
 
 ![image](https://user-images.githubusercontent.com/100402443/235901082-cb7d8527-bb90-4580-b0da-7e957d230ef4.png)
+
+### 고아객체
+
+- 고아 객체 제거 : 부모 엔티티와 연관관계가 끊어진 자식 엔티티를 자동으로 삭제
+- orphanRemoval = true
+- Parent parent1 = em.find(Parent.class, id);
+  parent1.getChildren().remove(0);
+  // 자식엔티티를 컬렉션에서 제거
+- DELETE FROM CHILD WHERE ID = ?
+
+
+![image](https://user-images.githubusercontent.com/100402443/235902579-f9741979-de56-4a69-98c3-dd2d0a5479f7.png)
+
+![image](https://user-images.githubusercontent.com/100402443/235903279-13395951-b024-4da1-93d3-f1463180a8db.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
