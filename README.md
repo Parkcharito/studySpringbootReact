@@ -11,6 +11,9 @@
       · 삭제 : jpa.remove(member)
 </details>  
 
+
+
+
 ◎ JPA
 ![image](https://user-images.githubusercontent.com/100402443/233082114-9d896bbe-d761-4a42-8bc2-56d499798169.png)
 
