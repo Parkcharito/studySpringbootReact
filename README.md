@@ -443,6 +443,7 @@ ex)
   
   
 ### 프로젝션
+
 - SELECT 절에 조회할 대상을 지정하는 것
 - 프로젝션 대상 : 엔티티, 임베디드 타입, 스칼라 타입(숫자, 문자등 기본 데이터 타입)
 - SELECT m FROM Member m -> 엔티티 프로젝션
@@ -451,6 +452,9 @@ ex)
 - SELECT m.userName, m.age FROM Member m -> 스칼라 타입 프로젝션
 - DISTINCT로 중복 제거
 
+
+Object[] 타입으로 조회
+![image](https://github.com/Parkcharito/studySpringbootReact/assets/100402443/c5807809-0127-402e-bf56-687aa18d88d0)
 
 
 
