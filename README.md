@@ -480,6 +480,13 @@ ex)
 #### 묵시적 조인 : 경로 표현식에 의해 묵시적으로 SQL 조인 발생(내부 조인만 가능)
 - select m.team from Member m
 
+EX) 
+
+- select o.member.team from Order o => 성공
+- select t.members from Team => 성공
+- select t.members.username from Team t => 실패
+- select m.username from Team t join t.members m => 성공
+
 
 
 
