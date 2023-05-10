@@ -472,7 +472,13 @@ ex)
 - setFirstResult(int startPosition) : 조회 시작 위치(0부터 시작)
 - setMaxResult(int maxResult) : 조회할 데이터 수
 
+***묵시적 조인보다 명시적 조인으로 코드를 작성하는게 좋다
 
+- 명시적 조인 : join 키워드 직접 사용
+- select m from Member m join m.team t
+
+- 묵시적 조인 : 경로 표현식에 의해 묵시적으로 SQL 조인 발생(내부 조인만 가능)
+- select m.team from Member m
 
 
 
