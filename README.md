@@ -467,7 +467,8 @@ ex)
 ![image](https://github.com/Parkcharito/studySpringbootReact/assets/100402443/e4750abf-595b-4091-9d60-2de52a154914)
 
 
-
+페이징 API 
+- JPA는 페이징을 다음 두 API로 추상화
 
 
 
