@@ -515,7 +515,9 @@ EX)
 ### 페치 조인(fetch join)
 - SQL 조인 종류 X
 - JPQL에서 성능 최적화를 위해 제공하는 기능
-
+- 연관된 엔티티나 컬렉션을 SQL 한번에 함께 조회하는 기능
+- join fetch 명령어 사용
+- 페치 조인 :: = [LEFT[OUTER]|INNER]JOIN FETCH 조인경로
 
 
 
