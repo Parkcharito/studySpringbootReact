@@ -521,8 +521,12 @@ EX)
 
 ### 엔티티 페치 조인
 - 회원을 조회하면서 연관된 팀도 함께 조회(SQL 한 번에)
+- SQL을 보면 회원 뿐만 아니라 팀도 함께 SELECT
 
+ex)
 
+- [JPQL] select m from Member m join fetch m.team
+- [SQL] SELECT M.*, T.* FROM MEMBER M INNER JOIN TEAM T ON M.TEAM_ID=T.ID
 
 
 
