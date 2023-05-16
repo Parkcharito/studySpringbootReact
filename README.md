@@ -519,6 +519,8 @@ EX)
 - join fetch 명령어 사용
 - 페치 조인 :: = [LEFT[OUTER]|INNER]JOIN FETCH 조인경로
 
+### 엔티티 페치 조인
+- 회원을 조회하면서 연관된 팀도 함께 조회(SQL 한 번에)
 
 
 
