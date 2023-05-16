@@ -528,6 +528,8 @@ ex)
 - [JPQL] select m from Member m join fetch m.team
 - [SQL] SELECT M.*, T.* FROM MEMBER M INNER JOIN TEAM T ON M.TEAM_ID=T.ID
 
+### 페치조인과 일반조인의 차이
+- 일반 조인 실행시 연관된 엔티티를 함께 조회하지 않음
 
 
 
