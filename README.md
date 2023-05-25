@@ -251,10 +251,10 @@ ex)
 
 - 다대일 : @ManyToOne
 
-![image](https://user-images.githubusercontent.com/100402443/235137594-c6aafd38-eb00-47fb-ae3c-721f50baafc3.png)
+	![image](https://user-images.githubusercontent.com/100402443/235137594-c6aafd38-eb00-47fb-ae3c-721f50baafc3.png)
 
 
-![image](https://user-images.githubusercontent.com/100402443/235138191-b8f867d9-7b09-45c0-a457-29678e20554e.png)
+	![image](https://user-images.githubusercontent.com/100402443/235138191-b8f867d9-7b09-45c0-a457-29678e20554e.png)
 
 - 일대다 : @OneToMany 
 - 일대일 : @OneToOne
@@ -267,7 +267,7 @@ ex)
 
 - 조인 전략 (웬만하면 표준)
 
-![image](https://user-images.githubusercontent.com/100402443/235294729-4c3e76ab-84aa-4f14-9370-1c0a01c2445d.png)
+	![image](https://user-images.githubusercontent.com/100402443/235294729-4c3e76ab-84aa-4f14-9370-1c0a01c2445d.png)
 
 ◎ 장점
 
@@ -284,7 +284,7 @@ ex)
 
 - 단일 테이블 전략
 
-![image](https://user-images.githubusercontent.com/100402443/235294989-5c26a9f3-8990-4dc6-a891-444019e7ee00.png)
+	![image](https://user-images.githubusercontent.com/100402443/235294989-5c26a9f3-8990-4dc6-a891-444019e7ee00.png)
 
 
 ◎ 장점
