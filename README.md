@@ -68,11 +68,13 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 - 엔티티 매니저를 통해서 영속성 컨텍스트에 접근
 
 ◎ 영속성 컨텍스트의 이점
+
 - 1차 캐시
 - 동일성(idenrtity) 보장 
+- 
 ex)
 
-![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
+	![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
 
 - 트랜잭션을 지원하는 쓰기 지연
 - 변경 감지(Dirty Checking)
@@ -99,7 +101,7 @@ ex)
     
  ex) 비영속 
  
- ![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
+ 	![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
 
 ◎ 준영속 상태
 
