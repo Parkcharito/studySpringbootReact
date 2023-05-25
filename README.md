@@ -141,26 +141,28 @@ ex)
 
 ◎ @Enumerated
 
-![image](https://user-images.githubusercontent.com/100402443/234046178-8ae043f9-6265-4de6-85e7-2d00818bdd3e.png)
+	![image](https://user-images.githubusercontent.com/100402443/234046178-8ae043f9-6265-4de6-85e7-2d00818bdd3e.png)
 
  ex)
 설정
 
- ![image](https://user-images.githubusercontent.com/100402443/234046783-b9e01020-a226-49d7-832e-e00530154ff5.png)
+ 	![image](https://user-images.githubusercontent.com/100402443/234046783-b9e01020-a226-49d7-832e-e00530154ff5.png)
  
- ![image](https://user-images.githubusercontent.com/100402443/234047471-5f4b6a5b-9d23-4793-ac5b-942c5d4baff4.png)
+ 	![image](https://user-images.githubusercontent.com/100402443/234047471-5f4b6a5b-9d23-4793-ac5b-942c5d4baff4.png)
 
 
 셋팅
  
- ![image](https://user-images.githubusercontent.com/100402443/234047037-8e4f73e0-afdc-4b81-8857-5a64ad813cbf.png)
+ 	![image](https://user-images.githubusercontent.com/100402443/234047037-8e4f73e0-afdc-4b81-8857-5a64ad813cbf.png)
 
  
  
  ◎ @Table
+ 
 - 테이블을 지정해주는 어노테이션이다 @Table(name = "테이블명")으로 DB에 지정할 테이블명 설정이 가능하다
  
  ◎ @GeneratedValue
+ 
  엔티티의 기본키 생성 전략
  
  
@@ -188,12 +190,12 @@ ex)
 
 ◎ 단방향 연관관계
 
-![image](https://user-images.githubusercontent.com/100402443/234587578-ea9d502e-9782-49ce-adef-19aaf5632d07.png)
+	![image](https://user-images.githubusercontent.com/100402443/234587578-ea9d502e-9782-49ce-adef-19aaf5632d07.png)
 
 
 - 적용 방법
 
-![image](https://user-images.githubusercontent.com/100402443/234587354-d0b38821-fc7c-45e2-93f1-459ba18c6be4.png)
+	![image](https://user-images.githubusercontent.com/100402443/234587354-d0b38821-fc7c-45e2-93f1-459ba18c6be4.png)
 
 ◎ 양방향 연관관계
 
@@ -201,17 +203,17 @@ ex)
 
 ◎ 연관관계의 주인(Owner)
 
-![image](https://user-images.githubusercontent.com/100402443/234591298-acd0a725-11a8-49bb-b447-969c4b1add05.png)
+	![image](https://user-images.githubusercontent.com/100402443/234591298-acd0a725-11a8-49bb-b447-969c4b1add05.png)
 
 누구를 주인으로 지정하느냐? -> 주로 외래 키가 있는 곳을 주인으로 정한다
 
-![image](https://user-images.githubusercontent.com/100402443/234592013-4250f90e-6ffd-4d20-ad88-6b1d965954a3.png)
+	![image](https://user-images.githubusercontent.com/100402443/234592013-4250f90e-6ffd-4d20-ad88-6b1d965954a3.png)
 
 여기서는 Member.team이 연관관계의 주인! (1: 다쪽이라고 생각했을 때 다쪽이 연관관계의 주인이라고 생각하면 된다)
 
 ※주의점
 
-![image](https://user-images.githubusercontent.com/100402443/234594657-452b3e61-97e6-4216-812b-fef65d7c6c25.png)
+	![image](https://user-images.githubusercontent.com/100402443/234594657-452b3e61-97e6-4216-812b-fef65d7c6c25.png)
 
 
 ![image](https://user-images.githubusercontent.com/100402443/234596265-444aad6c-64a1-4e78-b317-1b628fc813d9.png)
@@ -220,7 +222,7 @@ ex)
 
 연관관계의 주인쪽에 해당 메소드를 넣으면 자동 셋팅이 되니 참고!
 
-![image](https://user-images.githubusercontent.com/100402443/234596897-838014be-0ed9-4391-97f4-0434718e334f.png)
+	![image](https://user-images.githubusercontent.com/100402443/234596897-838014be-0ed9-4391-97f4-0434718e334f.png)
 
 
 ◎ 양방향 연관관계 주의 -  실습
@@ -240,7 +242,7 @@ ex)
 
 ※ 요약 ※
 
-![image](https://user-images.githubusercontent.com/100402443/235137126-70483704-3b84-4b9a-8d58-ca7793b0686a.png)
+	![image](https://user-images.githubusercontent.com/100402443/235137126-70483704-3b84-4b9a-8d58-ca7793b0686a.png)
 
 
 ---------------------------------------------------------------------------------------------------------------------
