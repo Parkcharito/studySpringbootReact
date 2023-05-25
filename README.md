@@ -37,11 +37,12 @@
 
 속성 중 name, nullable이 주로 사용되고 나머지는 잘 사용되지 않음
 
-![image](https://user-images.githubusercontent.com/100402443/233090725-d52c9835-3f16-4a88-ad6c-a57e53ea3ee9.png)
+	![image](https://user-images.githubusercontent.com/100402443/233090725-d52c9835-3f16-4a88-ad6c-a57e53ea3ee9.png)
 
 
 find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
-![image](https://user-images.githubusercontent.com/100402443/233092100-332fe656-8d1e-486d-b854-a4734e8b67f7.png)
+
+	![image](https://user-images.githubusercontent.com/100402443/233092100-332fe656-8d1e-486d-b854-a4734e8b67f7.png)
 
 이와같이 사용한다
 
@@ -112,7 +113,7 @@ ex)
 
  ◎ 한 트랜잭션 안에서 1차 캐시의 데이터를 먼저 찾고 없으면 DB에 접근한다 
  
- ![image](https://user-images.githubusercontent.com/100402443/233382338-9026d978-2953-4e2a-a525-6aa686457d4e.png)
+ 	![image](https://user-images.githubusercontent.com/100402443/233382338-9026d978-2953-4e2a-a525-6aa686457d4e.png)
  
  
 ---------------------------------------------------------------------------------------------------------------------
@@ -134,7 +135,7 @@ ex)
  ---------------------------------------------------------------------------------------------------------------------
  ◎ @Column
  
- ![image](https://user-images.githubusercontent.com/100402443/234045679-424639b6-cd9b-4791-b0dc-b4ddaaf7249c.png)
+ 	![image](https://user-images.githubusercontent.com/100402443/234045679-424639b6-cd9b-4791-b0dc-b4ddaaf7249c.png)
 
 
 
