@@ -394,7 +394,7 @@ ex)
 - 영속성 전이는 연관관계를 매핑하는 것과 아무 관련이 없음
 - 엔티티를 영속화할 때 연관된 엔티티도 함께 영속화하는 편리함을 제공할 뿐
 
-![image](https://user-images.githubusercontent.com/100402443/235901082-cb7d8527-bb90-4580-b0da-7e957d230ef4.png)
+	![image](https://user-images.githubusercontent.com/100402443/235901082-cb7d8527-bb90-4580-b0da-7e957d230ef4.png)
 
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -409,9 +409,9 @@ ex)
 - DELETE FROM CHILD WHERE ID = ?
 
 
-![image](https://user-images.githubusercontent.com/100402443/235902579-f9741979-de56-4a69-98c3-dd2d0a5479f7.png)
+	![image](https://user-images.githubusercontent.com/100402443/235902579-f9741979-de56-4a69-98c3-dd2d0a5479f7.png)
 
-![image](https://user-images.githubusercontent.com/100402443/235903279-13395951-b024-4da1-93d3-f1463180a8db.png)
+	![image](https://user-images.githubusercontent.com/100402443/235903279-13395951-b024-4da1-93d3-f1463180a8db.png)
 
 
 ---------------------------------------------------------------------------------------------------------------------
