@@ -365,18 +365,18 @@ ex)
 
 ◎ 지연로딩 LAZY를 사용해서 프록시로 조회
 
-![image](https://user-images.githubusercontent.com/100402443/235684788-2831e7b5-962b-4fca-922f-bb5b5674f904.png)
+	![image](https://user-images.githubusercontent.com/100402443/235684788-2831e7b5-962b-4fca-922f-bb5b5674f904.png)
 
 ex)
 
-![image](https://user-images.githubusercontent.com/100402443/235684520-052cdf11-1f18-4789-a308-b2e96368b485.png)
+	![image](https://user-images.githubusercontent.com/100402443/235684520-052cdf11-1f18-4789-a308-b2e96368b485.png)
 
 ◎ 즉시로딩은 EAGER를 사용해 함께 조회
 
-![image](https://user-images.githubusercontent.com/100402443/235685192-b2c83445-c6bc-48c8-a16c-7e887050872b.png)
+	![image](https://user-images.githubusercontent.com/100402443/235685192-b2c83445-c6bc-48c8-a16c-7e887050872b.png)
 
 ex)
-![image](https://user-images.githubusercontent.com/100402443/235685108-61d5312f-0730-41cb-94bf-f6f994f25b9f.png)
+	![image](https://user-images.githubusercontent.com/100402443/235685108-61d5312f-0730-41cb-94bf-f6f994f25b9f.png)
 
 ◎ 프록시와 즉시로딩 주의
 - 가급적 지연 로딩만 사용(특히 실무에서)
