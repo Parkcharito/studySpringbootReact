@@ -16,6 +16,7 @@
 
 
 ◎ JPA
+
 ![image](https://user-images.githubusercontent.com/100402443/233082114-9d896bbe-d761-4a42-8bc2-56d499798169.png)
 
 ◎ 데이터 베이스 방언
@@ -23,16 +24,18 @@
       · hibernate.dialect 속성에 지정 
       
 ◎ @Entity
+
 - 테이블과의 매핑
 
 - @Entity가 붙은 클래스는 JPA가 관리하는 것으로, 엔티티라고 불림
 
-![image](https://user-images.githubusercontent.com/100402443/233094922-48903040-8f96-4cc9-882b-a4c3244035e3.png) @Table
+	![image](https://user-images.githubusercontent.com/100402443/233094922-48903040-8f96-4cc9-882b-a4c3244035e3.png) @Table
 - 엔티티와 매핑할 테이블을 지정
 
 - 생략 시 매핑한 엔티티 이므로 테이블 이름으로 사용
 
 ◎ @Column
+
 객체 필드를 테이블 컬럼에 매핑
 
 속성 중 name, nullable이 주로 사용되고 나머지는 잘 사용되지 않음
@@ -47,7 +50,7 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 이와같이 사용한다
 
 결과
-![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
+	![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
 
 ---------------------------------------------------------------------------------------------------------------------
 
