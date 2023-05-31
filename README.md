@@ -78,7 +78,7 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 - 
 ex)
 
-	![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
+![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
 
 - 트랜잭션을 지원하는 쓰기 지연
 - 변경 감지(Dirty Checking)
@@ -105,7 +105,7 @@ ex)
     
  ex) 비영속 
  
- 	![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
+ ![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
 
 ◎ 준영속 상태
 
@@ -116,7 +116,7 @@ ex)
 
  ◎ 한 트랜잭션 안에서 1차 캐시의 데이터를 먼저 찾고 없으면 DB에 접근한다 
  
- 	![image](https://user-images.githubusercontent.com/100402443/233382338-9026d978-2953-4e2a-a525-6aa686457d4e.png)
+ ![image](https://user-images.githubusercontent.com/100402443/233382338-9026d978-2953-4e2a-a525-6aa686457d4e.png)
  
  
 ---------------------------------------------------------------------------------------------------------------------
