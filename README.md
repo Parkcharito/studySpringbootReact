@@ -28,7 +28,8 @@
 
 - @Entity가 붙은 클래스는 JPA가 관리하는 것으로, 엔티티라고 불림
 
-	![image](https://user-images.githubusercontent.com/100402443/233094922-48903040-8f96-4cc9-882b-a4c3244035e3.png) @Table
+![image](https://user-images.githubusercontent.com/100402443/233094922-48903040-8f96-4cc9-882b-a4c3244035e3.png) @Table
+
 - 엔티티와 매핑할 테이블을 지정
 
 - 생략 시 매핑한 엔티티 이므로 테이블 이름으로 사용
@@ -39,17 +40,17 @@
 
 속성 중 name, nullable이 주로 사용되고 나머지는 잘 사용되지 않음
 
-	![image](https://user-images.githubusercontent.com/100402443/233090725-d52c9835-3f16-4a88-ad6c-a57e53ea3ee9.png)
+![image](https://user-images.githubusercontent.com/100402443/233090725-d52c9835-3f16-4a88-ad6c-a57e53ea3ee9.png)
 
 
 find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 
-	![image](https://user-images.githubusercontent.com/100402443/233092100-332fe656-8d1e-486d-b854-a4734e8b67f7.png)
+![image](https://user-images.githubusercontent.com/100402443/233092100-332fe656-8d1e-486d-b854-a4734e8b67f7.png)
 
 이와같이 사용한다
 
 결과
-	![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
+![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
 
 ---------------------------------------------------------------------------------------------------------------------
 
