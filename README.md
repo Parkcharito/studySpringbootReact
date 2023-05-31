@@ -144,20 +144,20 @@ ex)
 
 ◎ @Enumerated
 
-	![image](https://user-images.githubusercontent.com/100402443/234046178-8ae043f9-6265-4de6-85e7-2d00818bdd3e.png)
+![image](https://user-images.githubusercontent.com/100402443/234046178-8ae043f9-6265-4de6-85e7-2d00818bdd3e.png)
 
  ex)
  
 설정
 
- 	![image](https://user-images.githubusercontent.com/100402443/234046783-b9e01020-a226-49d7-832e-e00530154ff5.png)
+ ![image](https://user-images.githubusercontent.com/100402443/234046783-b9e01020-a226-49d7-832e-e00530154ff5.png)
  
- 	![image](https://user-images.githubusercontent.com/100402443/234047471-5f4b6a5b-9d23-4793-ac5b-942c5d4baff4.png)
+ ![image](https://user-images.githubusercontent.com/100402443/234047471-5f4b6a5b-9d23-4793-ac5b-942c5d4baff4.png)
 
 
 셋팅
  
- 	![image](https://user-images.githubusercontent.com/100402443/234047037-8e4f73e0-afdc-4b81-8857-5a64ad813cbf.png)
+ ![image](https://user-images.githubusercontent.com/100402443/234047037-8e4f73e0-afdc-4b81-8857-5a64ad813cbf.png)
 
  
  
@@ -194,12 +194,12 @@ ex)
 
 ◎ 단방향 연관관계
 
-	![image](https://user-images.githubusercontent.com/100402443/234587578-ea9d502e-9782-49ce-adef-19aaf5632d07.png)
+![image](https://user-images.githubusercontent.com/100402443/234587578-ea9d502e-9782-49ce-adef-19aaf5632d07.png)
 
 
 - 적용 방법
 
-	![image](https://user-images.githubusercontent.com/100402443/234587354-d0b38821-fc7c-45e2-93f1-459ba18c6be4.png)
+![image](https://user-images.githubusercontent.com/100402443/234587354-d0b38821-fc7c-45e2-93f1-459ba18c6be4.png)
 
 ◎ 양방향 연관관계
 
