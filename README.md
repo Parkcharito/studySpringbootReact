@@ -490,7 +490,7 @@ ex)
 
 #### Object[] 타입으로 조회
 
-	![image](https://github.com/Parkcharito/studySpringbootReact/assets/100402443/c5807809-0127-402e-bf56-687aa18d88d0)
+![image](https://github.com/Parkcharito/studySpringbootReact/assets/100402443/c5807809-0127-402e-bf56-687aa18d88d0)
 
 #### new 명령어로 조회
 
@@ -499,7 +499,7 @@ ex)
 - 패키지 명을 포함한 전체클래스 명 입력
 - 순서와 타입이 일치하는 생성자 필요
 
-	![image](https://github.com/Parkcharito/studySpringbootReact/assets/100402443/e4750abf-595b-4091-9d60-2de52a154914)
+![image](https://github.com/Parkcharito/studySpringbootReact/assets/100402443/e4750abf-595b-4091-9d60-2de52a154914)
 
 
 ---------------------------------------------------------------------------------------------------------------------
