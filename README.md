@@ -138,7 +138,7 @@ ex)
  ---------------------------------------------------------------------------------------------------------------------
  ◎ @Column
  
- 	![image](https://user-images.githubusercontent.com/100402443/234045679-424639b6-cd9b-4791-b0dc-b4ddaaf7249c.png)
+ ![image](https://user-images.githubusercontent.com/100402443/234045679-424639b6-cd9b-4791-b0dc-b4ddaaf7249c.png)
 
 
 
@@ -207,17 +207,17 @@ ex)
 
 ◎ 연관관계의 주인(Owner)
 
-	![image](https://user-images.githubusercontent.com/100402443/234591298-acd0a725-11a8-49bb-b447-969c4b1add05.png)
+![image](https://user-images.githubusercontent.com/100402443/234591298-acd0a725-11a8-49bb-b447-969c4b1add05.png)
 
 누구를 주인으로 지정하느냐? -> 주로 외래 키가 있는 곳을 주인으로 정한다
 
-	![image](https://user-images.githubusercontent.com/100402443/234592013-4250f90e-6ffd-4d20-ad88-6b1d965954a3.png)
+![image](https://user-images.githubusercontent.com/100402443/234592013-4250f90e-6ffd-4d20-ad88-6b1d965954a3.png)
 
 여기서는 Member.team이 연관관계의 주인! (1: 다쪽이라고 생각했을 때 다쪽이 연관관계의 주인이라고 생각하면 된다)
 
 ※주의점
 
-	![image](https://user-images.githubusercontent.com/100402443/234594657-452b3e61-97e6-4216-812b-fef65d7c6c25.png)
+![image](https://user-images.githubusercontent.com/100402443/234594657-452b3e61-97e6-4216-812b-fef65d7c6c25.png)
 
 
 ![image](https://user-images.githubusercontent.com/100402443/234596265-444aad6c-64a1-4e78-b317-1b628fc813d9.png)
@@ -226,7 +226,7 @@ ex)
 
 연관관계의 주인쪽에 해당 메소드를 넣으면 자동 셋팅이 되니 참고!
 
-	![image](https://user-images.githubusercontent.com/100402443/234596897-838014be-0ed9-4391-97f4-0434718e334f.png)
+![image](https://user-images.githubusercontent.com/100402443/234596897-838014be-0ed9-4391-97f4-0434718e334f.png)
 
 
 ◎ 양방향 연관관계 주의 -  실습
