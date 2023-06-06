@@ -113,6 +113,7 @@ ex)
  
  ![image](https://user-images.githubusercontent.com/100402443/233378059-32e74800-c9d9-49ba-a587-259b748e9d68.png)
 
+
 ◎ 준영속 상태
 
 - 영속 상태의 엔티티가 영속성 컨텍스트에서 분리(detached)
