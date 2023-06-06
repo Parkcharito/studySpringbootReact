@@ -87,6 +87,7 @@ ex)
 - 변경 감지(Dirty Checking)
 - 지연 로딩(Lazy Loading)
 
+
 ◎ 엔티티의 생명주기
 
 - 비영속(new/transient)
