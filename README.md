@@ -78,7 +78,8 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 
 - 1차 캐시
 - 동일성(idenrtity) 보장 
-- 
+
+
 ex)
 
 ![image](https://user-images.githubusercontent.com/100402443/233402530-d615fc51-37af-422c-8457-91376b2de710.png)
