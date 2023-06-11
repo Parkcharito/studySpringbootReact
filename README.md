@@ -26,6 +26,7 @@
       · hibernate.dialect 속성에 지정 
       
       
+      
 ◎ @Entity
 
 - 테이블과의 매핑
