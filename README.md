@@ -16,7 +16,7 @@
 </details>  
 
 
-◎ JPA
+### JPA
 
 ![image](https://user-images.githubusercontent.com/100402443/233082114-9d896bbe-d761-4a42-8bc2-56d499798169.png)
 
@@ -27,7 +27,7 @@
       · hibernate.dialect 속성에 지정 
             
       
-◎ @Entity
+### @Entity
 
 - 테이블과의 매핑
 
@@ -40,7 +40,7 @@
 - 생략 시 매핑한 엔티티 이므로 테이블 이름으로 사용
 
 
-◎ @Column
+### @Column
 
 객체 필드를 테이블 컬럼에 매핑
 
