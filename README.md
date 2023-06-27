@@ -219,7 +219,7 @@ ex)
 
 
 
-◎ 연관관계의 주인(Owner)
+### 연관관계의 주인(Owner)
 
 ![image](https://user-images.githubusercontent.com/100402443/234591298-acd0a725-11a8-49bb-b447-969c4b1add05.png)
 
@@ -243,7 +243,7 @@ ex)
 ![image](https://user-images.githubusercontent.com/100402443/234596897-838014be-0ed9-4391-97f4-0434718e334f.png)
 
 
-◎ 양방향 연관관계 주의 
+### 양방향 연관관계 주의 
 
 - 순수 객체 상태를 고려해서 항상 양쪽에 값을 설정하자
 - 연관관계 편의 메소드를 생성하자
