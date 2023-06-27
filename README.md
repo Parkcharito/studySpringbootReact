@@ -340,7 +340,7 @@ ex)
 ![image](https://user-images.githubusercontent.com/100402443/235295246-818bacf2-8d14-4a77-a983-c82cc2993e25.png)
 
 
-@MappedSuperclass
+### @MappedSuperclass
 
 - 상속관계 매핑 X
 - 엔티티X, 테이블과 매핑 X
@@ -357,7 +357,7 @@ ex)
 
 ## 프록시
 
-◎ 프록시 기초
+### 프록시 기초
 
 - em.find() vs em.getRegerence()
 - em.find(): 데이터베이스를 통해서 실제 엔티티 객체 조회
@@ -366,7 +366,7 @@ ex)
 ![image](https://user-images.githubusercontent.com/100402443/235676732-ae216851-9293-4a9d-b883-be88c8e20695.png)
 
 
-◎ 프록시 특징
+### 프록시 특징
 
 - 실제 클래스를 상속 받아서 만들어짐
 - 실제 클래스와 겉 모양이 같다.
