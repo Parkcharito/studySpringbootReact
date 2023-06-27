@@ -192,14 +192,14 @@ ex)
 - AUTO_INCREMENT는 데이터베이스에 INSERT SQL을 실행한 이후에 ID값을 알 수 있음
 - IDENTITY전략은 em.persist() 시점에 즉시 INSERT SQL 싱행하고 DB에서 식별자를 조회
 
-◎ SequenceGenerator -속성
+### SequenceGenerator -속성
 
 - sequenceName 데이터베이스에 등록되어 있는 시퀀스 이름
 - initialValue DDL 생성 시에만 사용됨, 시퀀스 DDL을 생성할 때 처음 1 시작하는 수를 지정한다
 - allocationSize 시쿼스 한 번 호출에 증가하는 수 (성능 최적화에 사용됨)
   데이터베이스 시퀀스 값이 하나씩 증가하도록 설정되어 있으면 이 값을 반드시 1로 설정해야 한다 (기본값 50)
 
-◎ TableGenerator는 따로 하나의 table에 시퀀스라고 지정하고 쓰는 방식인데 잘 안쓰이는듯,,
+### TableGenerator는 따로 하나의 table에 시퀀스라고 지정하고 쓰는 방식인데 잘 안쓰이는듯,,
 
 
 
