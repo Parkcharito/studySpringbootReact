@@ -385,7 +385,7 @@ ex)
 
 ### 지연로딩과 즉시로딩
 
-◎ 지연로딩 LAZY를 사용해서 프록시로 조회
+#### 지연로딩 LAZY를 사용해서 프록시로 조회
 
 ![image](https://user-images.githubusercontent.com/100402443/235684788-2831e7b5-962b-4fca-922f-bb5b5674f904.png)
 
@@ -401,7 +401,8 @@ ex)
 
 ![image](https://user-images.githubusercontent.com/100402443/235685108-61d5312f-0730-41cb-94bf-f6f994f25b9f.png)
 
-◎ 프록시와 즉시로딩 주의
+#### 프록시와 즉시로딩 주의
+
 - 가급적 지연 로딩만 사용(특히 실무에서)
 - 즉시 로딩을 적용하면 예상하지 못한 SQL이 발생
 - 즉시 로딩은 JPQL에서 N+1 문제를 일으킨다.
