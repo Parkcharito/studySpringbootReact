@@ -160,7 +160,7 @@ ex)
 
  ex)
  
-설정
+#### 설정
 
  ![image](https://user-images.githubusercontent.com/100402443/234046783-b9e01020-a226-49d7-832e-e00530154ff5.png)
  
@@ -168,7 +168,7 @@ ex)
 
 
 
-셋팅
+#### 셋팅
  
  ![image](https://user-images.githubusercontent.com/100402443/234047037-8e4f73e0-afdc-4b81-8857-5a64ad813cbf.png)
 
