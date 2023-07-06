@@ -4,7 +4,6 @@
 # 기본 JPA 내용정리
 
 
-
 <details>
     <summary> 기본 JPA (자세히)</summary>
     
