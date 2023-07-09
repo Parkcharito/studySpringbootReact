@@ -62,6 +62,7 @@ find 조회를 할 때 where 조건절에 primaryKey Id를 넣으려면
 
 이와같이 사용한다
 
+
 결과
 
 ![image](https://user-images.githubusercontent.com/100402443/233092249-2635fa14-c637-46a2-bf28-daf945ccfea2.png)
