@@ -420,6 +420,7 @@ ex)
 
 ![image](https://user-images.githubusercontent.com/100402443/235685108-61d5312f-0730-41cb-94bf-f6f994f25b9f.png)
 
+
 #### 프록시와 즉시로딩 주의
 
 - 가급적 지연 로딩만 사용(특히 실무에서)
