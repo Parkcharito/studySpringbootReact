@@ -27,7 +27,6 @@
       · 데이터베이스 방언이란? -> MySQL은 LIMIT, ORACLE은 ROWNUM으로 표현하듯 SQL표준이 아닌 특정 데이터베이스만의 고유한 기능
       · hibernate.dialect 속성에 지정 
 	    
-
 ### @Entity
 
 - 테이블과의 매핑
