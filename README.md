@@ -15,7 +15,6 @@
       · 삭제 : jpa.remove(member)
 
 
- 
 </details>  
 
 
