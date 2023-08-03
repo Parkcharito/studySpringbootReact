@@ -14,6 +14,7 @@
       · 수정 : member.setName("변경할 이름")
       · 삭제 : jpa.remove(member)
 
+
 </details>  
 
 ### JPA
