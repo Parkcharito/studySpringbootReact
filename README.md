@@ -5,7 +5,6 @@
 
 
 
-
 # 기본 JPA 내용정리
 
 <details>
