@@ -5,7 +5,6 @@
 <details>
     <summary> 기본 JPA (자세히)</summary>
 
-    
       ◎ JPA와 CRUD
     
       · 저장 : jpa.persist(member)
